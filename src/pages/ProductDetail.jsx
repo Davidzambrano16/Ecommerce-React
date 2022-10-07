@@ -58,7 +58,7 @@ const ProductDetail = () => {
                 </div>
             </Col>
 
-            <Col lg={3} >
+            <Col lg={3}  className="conteinerProductRelated" >
                 <ListGroup>
                     {
                         relatedProducts.map(products => (
